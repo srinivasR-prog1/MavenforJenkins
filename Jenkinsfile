@@ -47,10 +47,10 @@ pipeline{
      post
 	{
 	
-	  failure
+	  always
 		{
 		
-		
+		  emailext body: 'Summary', subject: 'Pipeline status', to: 'sri1.as400@gmail.com'
 		
 		
 		}
