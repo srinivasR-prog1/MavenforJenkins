@@ -44,7 +44,20 @@ pipeline{
 	
 	}
 
-
+     post
+	{
+	
+	  failure
+		{
+		
+		
+		
+		
+		}
+	
+	
+	
+	}
 
 
 }
